@@ -114,7 +114,7 @@ public class CheckSum {
     public static void main(String[] args){
     	
     	try {
-			String checkSum = CheckSum.getMD5Checksum(new File("c:\\users\\missaoui\\invecas\\ip.zip"));
+			String checkSum = CheckSum.getMD5Checksum(new File("ip.zip"));
 			System.out.println(checkSum);
 		} catch (NoSuchAlgorithmException e) {
 			// TODO Auto-generated catch block
